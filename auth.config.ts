@@ -5,6 +5,7 @@ export const authConfig: NextAuthConfig = {
   providers: [
     Google, // たったこれだけ
   ], // 後ほどここにGoogle プロバイダを追加していきます
+  secret: process.env.AUTH_SECRET,
   callbacks: {
     async jwt({ token, user, account }) {
       if (user && account?.id_token) {
