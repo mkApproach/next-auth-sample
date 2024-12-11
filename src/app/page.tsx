@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <div className="w-full text-center">
-      <h1 className="text-2xl my-12">Next Auth Google !!!</h1>
+      <h1 className="text-2xl my-12">Next Auth Google !!! 2024/12/11</h1>
       <LogInButton />
       <LogOutButton />
 
